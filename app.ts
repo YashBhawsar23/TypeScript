@@ -27,17 +27,17 @@ interface User{
     name: string,
     email: string,
     password: string,
-    id: number,
-    gender?: string
+    // id: number,
+    // gender?: string
 }
 
-function getUserData(obj:User){
-
+interface Admin extends User {
+    admin: boolean
 }
-
-getUserData({name: 'Yash', email: 'Yash', password: "YAsd", id: 27})
  
-
+function abcd(obj: Admin){
+    obj.admin
+}
 
 
 
