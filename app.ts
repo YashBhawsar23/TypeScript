@@ -23,8 +23,15 @@
 //     a.toUpperCase()
 //  }
 
-function abcd() : string {
-    return 'Yash'
+interface User{
+    name: string,
+    email: string,
+    password: string,
+    id: number
+}
+
+function getUserData(obj:User){
+
 }
  
 
