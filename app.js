@@ -44,12 +44,11 @@
 // function abcd(a:Admin){
 //     a.
 // }
-class HumanMaker {
-    constructor(name, isHandsome) {
-        this.name = name;
-        this.isHandsome = isHandsome;
-        this.age = 0;
+class Intro {
+    constructor() {
+        this.name = 'Yash';
+    }
+    changeName() {
+        this.name;
     }
 }
-let person1 = new HumanMaker('Yash', true);
-let person2 = new HumanMaker('Nikunj', false);

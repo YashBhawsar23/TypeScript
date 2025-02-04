@@ -60,20 +60,13 @@
 // }
 
 
-class HumanMaker {
-    age = 0
-    constructor(public name: string, public isHandsome: boolean){
+class Intro{
+    name = 'Yash'
 
+    changeName(){
+        this.name
     }
 }
-
-let person1 = new HumanMaker('Yash', true)
-let person2 = new HumanMaker('Nikunj', false)
-
-
-
-
-
 
 
 
