@@ -23,23 +23,26 @@
 //     a.toUpperCase()
 //  }
 
-interface User{
-    name: string,
-    email: string,
-    password: string,
-    // id: number,
-    // gender?: string
-}
+// interface User{
+//     name: string,
+//     email: string,
+//     password: string,
+//     // id: number,
+//     // gender?: string
+// }
 
-interface Admin extends User {
-    admin: boolean
-}
+// interface Admin extends User {
+//     admin: boolean
+// }
  
-function abcd(obj: Admin){
-    obj.admin
-}
+// function abcd(obj: Admin){
+//     obj.admin
+// }
 
 
+type value = number | string | boolean
+
+let a: value
 
 
 
