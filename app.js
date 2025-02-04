@@ -1,3 +1,3 @@
 "use strict";
 // let arr: [string, number] = ['Yash', 27]
-let a;
+const lead = { name: "Yash", id: 1, department: "IT" };

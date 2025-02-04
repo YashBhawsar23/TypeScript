@@ -39,10 +39,32 @@
 //     obj.admin
 // }
 
+// Aliases
+// type arg = string | number
 
-type value = number | string | boolean
+// function abcd(obj:arg){
 
-let a: value
+// }
+
+// type User = {
+//     name: string,
+//     email: string
+// }
+
+// type Admin = User & {
+//     getDetails(user: string):void
+// }
+
+// function abcd(a:Admin){
+//     a.
+// }
+
+
+type Employee = { name: string; id: number };
+type Manager = { department: string };
+type TeamLead = Employee & Manager;
+
+const lead: TeamLead = { name: "Yash", id: 1, department: "IT" };
 
 
 
