@@ -1,3 +1,55 @@
 "use strict";
 // let arr: [string, number] = ['Yash', 27]
-const lead = { name: "Yash", id: 1, department: "IT" };
+// let arr2: [number, string] = [25, "Dev"]
+// Enums -> enumerations
+// enum UserRoles {
+//     ADMIN = 'admin',
+//     GUEST = 'guest',
+//     SUPER_ADMIN = 'super_admin'
+// }
+// enum StatusCodes {
+//     ABANDONED = "abandoned status code is 500",
+//     NOT_FOUND = 'notfound status code is 404'
+// }
+//  let a : unknown
+//  a = 27
+//  a = 'Yash'
+//  if(typeof a === 'string') {
+//     a.toUpperCase()
+//  }
+// interface User{
+//     name: string,
+//     email: string,
+//     password: string,
+//     // id: number,
+//     // gender?: string
+// }
+// interface Admin extends User {
+//     admin: boolean
+// }
+// function abcd(obj: Admin){
+//     obj.admin
+// }
+// Aliases
+// type arg = string | number
+// function abcd(obj:arg){
+// }
+// type User = {
+//     name: string,
+//     email: string
+// }
+// type Admin = User & {
+//     getDetails(user: string):void
+// }
+// function abcd(a:Admin){
+//     a.
+// }
+class Device {
+  constructor() {
+    this.name = "Samsung";
+    this.price = 12000;
+    this.category = "digital";
+  }
+}
+let d1 = new Device();
+let d2 = new Device();

@@ -60,12 +60,14 @@
 // }
 
 
-type Employee = { name: string; id: number };
-type Manager = { department: string };
-type TeamLead = Employee & Manager;
+class Device {
+    name = "Samsung";
+    price = 12000;
+    category = "digital"
+}
 
-const lead: TeamLead = { name: "Yash", id: 1, department: "IT" };
-
+let d1 = new Device()
+let d2 = new Device()
 
 
 
