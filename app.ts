@@ -27,13 +27,17 @@ interface User{
     name: string,
     email: string,
     password: string,
-    id: number
+    id: number,
+    gender?: string
 }
 
 function getUserData(obj:User){
 
 }
+
+getUserData({name: 'Yash', email: 'Yash', password: "YAsd", id: 27})
  
+
 
 
 
