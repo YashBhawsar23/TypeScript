@@ -15,10 +15,38 @@
 //     NOT_FOUND = 'notfound status code is 404'
 // }
 
- let a : unknown
- a = 27
- a = 'Yash'
+//  let a : unknown
+//  a = 27
+//  a = 'Yash'
 
- if(typeof a === 'string') {
-    a.toUpperCase()
- }
+//  if(typeof a === 'string') {
+//     a.toUpperCase()
+//  }
+
+function abcd() : string {
+    return 'Yash'
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

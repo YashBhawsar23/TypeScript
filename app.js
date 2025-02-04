@@ -11,9 +11,12 @@
 //     ABANDONED = "abandoned status code is 500",
 //     NOT_FOUND = 'notfound status code is 404'
 // }
-let a;
-a = 27;
-a = 'Yash';
-if (typeof a === 'string') {
-    a.toUpperCase();
+//  let a : unknown
+//  a = 27
+//  a = 'Yash'
+//  if(typeof a === 'string') {
+//     a.toUpperCase()
+//  }
+function abcd() {
+    return 'Yash';
 }
