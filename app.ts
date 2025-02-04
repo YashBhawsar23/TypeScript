@@ -60,19 +60,19 @@
 // }
 
 
-class Intro{
-    name = 'Yash'
+class BottleMaker {
+    constructor(public name: string){
 
-    changeName(){
-        this.name
     }
 }
 
+class MetalBottleMaker extends BottleMaker{
+    constructor(name: string){
+        super(name)
+    }
 
+}
 
-
-
-
-
+let b1 = new BottleMaker('Milton')
 
 
