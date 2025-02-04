@@ -60,20 +60,15 @@
 // }
 
 
-class Device {
-    name = "Samsung";
-    price = 12000;
-    category = "digital"
+class HumanMaker {
+    age = 0
+    constructor(public name: string, public isHandsome: boolean){
+
+    }
 }
 
-let d1 = new Device()
-let d2 = new Device()
-
-
-
-
-
-
+let person1 = new HumanMaker('Yash', true)
+let person2 = new HumanMaker('Nikunj', false)
 
 
 

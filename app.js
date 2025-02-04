@@ -44,12 +44,12 @@
 // function abcd(a:Admin){
 //     a.
 // }
-class Device {
-  constructor() {
-    this.name = "Samsung";
-    this.price = 12000;
-    this.category = "digital";
-  }
+class HumanMaker {
+    constructor(name, isHandsome) {
+        this.name = name;
+        this.isHandsome = isHandsome;
+        this.age = 0;
+    }
 }
-let d1 = new Device();
-let d2 = new Device();
+let person1 = new HumanMaker('Yash', true);
+let person2 = new HumanMaker('Nikunj', false);
