@@ -1,2 +1,3 @@
 "use strict";
-let arr = [1, 2, 3, "Yash"];
+let arr = ['Yash', 27];
+let arr2 = [25, "Dev"];
