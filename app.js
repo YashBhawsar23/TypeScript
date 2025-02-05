@@ -1,57 +1,6 @@
 "use strict";
 // let arr: [string, number] = ['Yash', 27]
-// let arr2: [number, string] = [25, "Dev"]
-// Enums -> enumerations
-// enum UserRoles {
-//     ADMIN = 'admin',
-//     GUEST = 'guest',
-//     SUPER_ADMIN = 'super_admin'
-// }
-// enum StatusCodes {
-//     ABANDONED = "abandoned status code is 500",
-//     NOT_FOUND = 'notfound status code is 404'
-// }
-//  let a : unknown
-//  a = 27
-//  a = 'Yash'
-//  if(typeof a === 'string') {
-//     a.toUpperCase()
-//  }
-// interface User{
-//     name: string,
-//     email: string,
-//     password: string,
-//     // id: number,
-//     // gender?: string
-// }
-// interface Admin extends User {
-//     admin: boolean
-// }
-// function abcd(obj: Admin){
-//     obj.admin
-// }
-// Aliases
-// type arg = string | number
-// function abcd(obj:arg){
-// }
-// type User = {
-//     name: string,
-//     email: string
-// }
-// type Admin = User & {
-//     getDetails(user: string):void
-// }
-// function abcd(a:Admin){
-//     a.
-// }
-class HumanMaker {
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
-        this.name = name;
-    }
-    changing() {
-        this.name = 'YAsh Bhawsar';
-    }
+function getUser(user) {
+    console.log(user.id);
+    return user.id = 25;
 }
-let h1 = new HumanMaker('Yash', 27);

@@ -57,8 +57,18 @@
 
 // function abcd(a:Admin){
 //     a.
-// }
 
+interface User {
+    id: number,
+    name: string,
+    email: string
+}
+
+function getUser(user: User){
+    console.log(user.id)
+    return user.id = 25
+    
+}
 
 
 
