@@ -60,19 +60,5 @@
 // }
 
 
-class BottleMaker {
-    constructor(public name: string){
-
-    }
-}
-
-class MetalBottleMaker extends BottleMaker{
-    constructor(name: string){
-        super(name)
-    }
-
-}
-
-let b1 = new BottleMaker('Milton')
 
 

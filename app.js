@@ -44,14 +44,14 @@
 // function abcd(a:Admin){
 //     a.
 // }
-class BottleMaker {
-    constructor(name) {
+class HumanMaker {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
         this.name = name;
     }
-}
-class MetalBottleMaker extends BottleMaker {
-    constructor(name) {
-        super(name);
+    changing() {
+        this.name = 'YAsh Bhawsar';
     }
 }
-let b1 = new BottleMaker('Milton');
+let h1 = new HumanMaker('Yash', 27);
