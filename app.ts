@@ -75,11 +75,3 @@
 //   console.log(Yash.greet()); 
 
  
-class Payment {
-  constructor(protected amount: number){
-
-  }
-  isPaymentValid(amount: number){
-    return this.amount > 0
-  }
-}

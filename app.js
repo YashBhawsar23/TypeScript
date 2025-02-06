@@ -55,11 +55,3 @@
 //   // Create an instance
 //   const Yash = new Person("Yash", 27);
 //   console.log(Yash.greet()); 
-class Payment {
-    constructor(amount) {
-        this.amount = amount;
-    }
-    isPaymentValid(amount) {
-        return this.amount > 0;
-    }
-}
