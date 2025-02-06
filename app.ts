@@ -75,14 +75,10 @@
 //   console.log(Yash.greet()); 
 
   class User{
-    constructor( public readonly name: string){
+    constructor(public name: string, public age: number, public gender?: string){
 
-    }
-
-    changeName(){
-      this.name = 'Yash'
     }
   }
 
-  let u1 =new User( 'Bhawsar')
-  u1.changeName()
+  let u1 = new User('Yash',27, 'Male')
+  let u2 = new User('Bataq',22)
