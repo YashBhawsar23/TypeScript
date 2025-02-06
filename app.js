@@ -55,19 +55,13 @@
 //   // Create an instance
 //   const Yash = new Person("Yash", 27);
 //   console.log(Yash.greet()); 
-class BottleMaker {
+class User {
     constructor(name) {
         this.name = name;
-        this.halua = 'Halua';
+    }
+    changeName() {
+        this.name = 'Yash';
     }
 }
-class MetalBottleMaker extends BottleMaker {
-    constructor(name) {
-        super(name);
-    }
-    getValue() {
-        console.log(this.name);
-    }
-}
-let b1 = new MetalBottleMaker('Milton');
-b1.getValue();
+let u1 = new User('Bhawsar');
+u1.changeName();

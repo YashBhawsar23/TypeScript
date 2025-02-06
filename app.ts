@@ -74,21 +74,15 @@
 //   const Yash = new Person("Yash", 27);
 //   console.log(Yash.greet()); 
 
-  class BottleMaker{
-    public halua: string= 'Halua'
-    constructor(public name: string){
+  class User{
+    constructor( public readonly name: string){
+
+    }
+
+    changeName(){
+      this.name = 'Yash'
     }
   }
 
-  class MetalBottleMaker extends BottleMaker {
-    constructor(name: string){
-      super(name)
-    }
-
-getValue(){
-  console.log(this.name)
-}
-  }
-
-  let b1 = new MetalBottleMaker('Milton')
- b1.getValue()
+  let u1 =new User( 'Bhawsar')
+  u1.changeName()
