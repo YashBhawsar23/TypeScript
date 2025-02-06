@@ -75,8 +75,15 @@
 //   console.log(Yash.greet()); 
 
  
-function friends(...args: string[]){
-console.log(args)
+function greet(name: string): string;
+function greet(age: number): string;
+function greet(value: string | number): string {
+  if (typeof value === "string") {
+    return `Hello, ${value}`;
+  } else {
+    return `You are ${value} years old.`;
+  }
 }
 
-friends('Yash','Devang','Burhan')
+console.log(greet("Yash")); // Output: Hello, Yash
+console.log(greet(27));     // Output: You are 25 years old
