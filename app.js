@@ -55,9 +55,11 @@
 //   // Create an instance
 //   const Yash = new Person("Yash", 27);
 //   console.log(Yash.greet()); 
-class Numbers {
-    static getRandonNumber() {
-        return Math.random();
+class Payment {
+    constructor(amount) {
+        this.amount = amount;
+    }
+    isPaymentValid(amount) {
+        return this.amount > 0;
     }
 }
-Numbers.getRandonNumber();

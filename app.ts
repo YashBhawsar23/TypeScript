@@ -75,9 +75,11 @@
 //   console.log(Yash.greet()); 
 
  
-class Numbers {
-static getRandonNumber() {
-  return Math.random()
+class Payment {
+  constructor(protected amount: number){
+
+  }
+  isPaymentValid(amount: number){
+    return this.amount > 0
+  }
 }
-}
-Numbers.getRandonNumber()
