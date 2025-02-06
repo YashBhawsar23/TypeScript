@@ -75,8 +75,8 @@
 //   console.log(Yash.greet()); 
 
  
-function sum (...arr: number[]){
-console.log(arr)
+function friends(...args: string[]){
+console.log(args)
 }
 
-sum(1,2,3,4,5,6,7,8,9,10)
+friends('Yash','Devang','Burhan')

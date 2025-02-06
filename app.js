@@ -55,7 +55,7 @@
 //   // Create an instance
 //   const Yash = new Person("Yash", 27);
 //   console.log(Yash.greet()); 
-function sum(...arr) {
-    console.log(arr);
+function friends(...args) {
+    console.log(args);
 }
-sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+friends('Yash', 'Devang', 'Burhan');
