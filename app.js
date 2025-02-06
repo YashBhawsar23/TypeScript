@@ -43,17 +43,26 @@
 // }
 // function abcd(a:Admin){
 //     a.
-class Person {
-    // Constructor
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
+// class Person {
+//     // Constructor
+//     constructor( public name: string,public age: number) {    
+//     }
+//     // Method
+//     greet(): string {
+//       return `Hello, I'm ${this.name}!`;
+//     }
+//   }
+//   // Create an instance
+//   const Yash = new Person("Yash", 27);
+//   console.log(Yash.greet()); 
+class BankAccount {
+    constructor(id, owner, amount) {
+        this.id = id;
+        this.owner = owner;
+        this.amount = amount;
     }
-    // Method
-    greet() {
-        return `Hello, I'm ${this.name}!`;
+    balance() {
+        return this.amount;
     }
 }
-// Create an instance
-const alice = new Person("Alice", 30);
-console.log(alice.greet()); // "Hello, I'm Alice!"
+const Yash = new BankAccount('25dv', 'YAsh Bhawsar', 257585);

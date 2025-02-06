@@ -59,19 +59,29 @@
 //     a.
 
 
-class Person {
-   
-    // Constructor
-    constructor( public name: string,public age: number) {
-      
-    }
+// class Person {
+//     // Constructor
+//     constructor( public name: string,public age: number) {    
+//     }
   
-    // Method
-    greet(): string {
-      return `Hello, I'm ${this.name}!`;
+//     // Method
+//     greet(): string {
+//       return `Hello, I'm ${this.name}!`;
+//     }
+//   }
+  
+//   // Create an instance
+//   const Yash = new Person("Yash", 27);
+//   console.log(Yash.greet()); 
+
+  class BankAccount {
+    constructor( private id : string,public owner: string, protected amount: number){}
+
+    public balance() : number{
+      return this.amount
     }
+
   }
-  
-  // Create an instance
-  const alice = new Person("Alice", 30);
-  console.log(alice.greet()); // "Hello, I'm Alice!"
+
+  const Yash = new BankAccount('25dv', 'YAsh Bhawsar', 257585)
+
