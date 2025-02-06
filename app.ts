@@ -75,3 +75,10 @@
 //   console.log(Yash.greet()); 
 
  
+function abcd(name:string, cb: (arg:string)=>void){
+cb('Hello')
+}
+
+abcd ('Yash', (arg:string) => {
+    console.log(arg)
+})
