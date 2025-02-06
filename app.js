@@ -55,8 +55,12 @@
 //   // Create an instance
 //   const Yash = new Person("Yash", 27);
 //   console.log(Yash.greet()); 
-function log(val) {
-    console.log(val);
+class BottleMaker {
+    constructor(key) {
+        this.key = key;
+    }
 }
-log('Yash');
-log(27);
+let b1 = new BottleMaker('YAsh');
+console.log(b1);
+let b2 = new BottleMaker(27);
+console.log(b2);
