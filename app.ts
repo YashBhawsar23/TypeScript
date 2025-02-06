@@ -74,14 +74,21 @@
 //   const Yash = new Person("Yash", 27);
 //   console.log(Yash.greet()); 
 
-  class BankAccount {
-    constructor( private id : string,public owner: string, protected amount: number){}
-
-    public balance() : number{
-      return this.amount
+  class BottleMaker{
+    public halua: string= 'Halua'
+    constructor(public name: string){
     }
-
   }
 
-  const Yash = new BankAccount('25dv', 'YAsh Bhawsar', 257585)
+  class MetalBottleMaker extends BottleMaker {
+    constructor(name: string){
+      super(name)
+    }
 
+getValue(){
+  console.log(this.name)
+}
+  }
+
+  let b1 = new MetalBottleMaker('Milton')
+ b1.getValue()
