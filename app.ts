@@ -74,16 +74,10 @@
 //   const Yash = new Person("Yash", 27);
 //   console.log(Yash.greet()); 
 
-  class User {
-    constructor(public _name: string, public _age: number){}
-
-get name(){
-  return this._name
+ 
+class Numbers {
+static getRandonNumber() {
+  return Math.random()
 }
-set name(value: string){
-   this._name = value
 }
-
-  }
-
-  let u1 = new User('Yash', 27)
+Numbers.getRandonNumber()
