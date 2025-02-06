@@ -75,14 +75,13 @@
 //   console.log(Yash.greet()); 
 
   class User {
-    constructor(public name: string, public age: number){}
+    constructor(public _name: string, public _age: number){}
 
-getName(){
-  return this.name
+get name(){
+  return this._name
 }
-
-setName(value: string) {
- return this.name = value
+set name(value: string){
+   this._name = value
 }
 
   }
