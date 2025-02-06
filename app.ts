@@ -75,11 +75,3 @@
 //   console.log(Yash.greet()); 
 
  
-class BottleMaker <T>{
-    constructor(public key:T){}
-}
-
-let b1 = new BottleMaker('YAsh')
-console.log(b1)
-let b2 = new BottleMaker(27)
-console.log(b2)
