@@ -58,17 +58,20 @@
 // function abcd(a:Admin){
 //     a.
 
-interface User {
-    id: number,
-    name: string,
-    email: string
-}
 
-function getUser(user: User){
-    console.log(user.id)
-    return user.id = 25
-    
-}
-
-
-
+class Person {
+   
+    // Constructor
+    constructor( public name: string,public age: number) {
+      
+    }
+  
+    // Method
+    greet(): string {
+      return `Hello, I'm ${this.name}!`;
+    }
+  }
+  
+  // Create an instance
+  const alice = new Person("Alice", 30);
+  console.log(alice.greet()); // "Hello, I'm Alice!"
