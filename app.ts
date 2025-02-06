@@ -75,10 +75,8 @@
 //   console.log(Yash.greet()); 
 
  
-function abcd(name:string, cb: (arg:string)=>void){
-cb('Hello')
+function sum (...arr: number[]){
+console.log(arr)
 }
 
-abcd ('Yash', (arg:string) => {
-    console.log(arg)
-})
+sum(1,2,3,4,5,6,7,8,9,10)

@@ -55,9 +55,7 @@
 //   // Create an instance
 //   const Yash = new Person("Yash", 27);
 //   console.log(Yash.greet()); 
-function abcd(name, cb) {
-    cb('Hello');
+function sum(...arr) {
+    console.log(arr);
 }
-abcd('Yash', (arg) => {
-    console.log(arg);
-});
+sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
