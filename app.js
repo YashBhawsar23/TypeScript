@@ -56,11 +56,15 @@
 //   const Yash = new Person("Yash", 27);
 //   console.log(Yash.greet()); 
 class User {
-    constructor(name, age, gender) {
+    constructor(name, age) {
         this.name = name;
         this.age = age;
-        this.gender = gender;
+    }
+    getName() {
+        return this.name;
+    }
+    setName(value) {
+        return this.name = value;
     }
 }
-let u1 = new User('Yash', 27, 'Male');
-let u2 = new User('Bataq', 22);
+let u1 = new User('Yash', 27);
