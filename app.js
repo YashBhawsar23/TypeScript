@@ -68,4 +68,3 @@ function abcd(arg) {
 }
 console.log(abcd(12));
 console.log(abcd('Yash'));
-console.log(abcd(true));
