@@ -55,3 +55,5 @@
 //   // Create an instance
 //   const Yash = new Person("Yash", 27);
 //   console.log(Yash.greet()); 
+let a = 12;
+a;

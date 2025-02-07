@@ -75,3 +75,6 @@
 //   console.log(Yash.greet()); 
 
  
+let a :any = 12
+
+a as string
