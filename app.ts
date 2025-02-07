@@ -75,5 +75,16 @@
 //   console.log(Yash.greet()); 
 
  
-let a = Number('27')
-console.log(typeof a)
+function abcd(arg: string | number ){
+    if(typeof arg === 'string'){
+return 'string'
+    } else if (typeof arg === 'number'){
+return 'number'
+    } else {
+        throw new Error('Something Went Wrong')
+    }
+}
+
+console.log(abcd(12))
+console.log(abcd('Yash'))
+console.log(abcd(true))
